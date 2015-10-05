@@ -22,7 +22,7 @@
             <Run Text="Restaurant Manager" FontWeight="Bold" FontSize="36"></Run>
         </TextBlock>
         <TextBlock Text="Internal Test Version" HorizontalAlignment="Center" VerticalAlignment="Bottom" Grid.Row="1" Grid.ColumnSpan="2"></TextBlock>
-        <Button Content="Order View" Grid.Row="2" Grid.Column="0" HorizontalAlignment="Center"></Button>
-        <Button Content="Submit Order" Grid.Row="2" Grid.Column="1" HorizontalAlignment="Center"></Button>
+        <Button Content="Order View" Grid.Row="2" Grid.Column="0" HorizontalAlignment="Center" Click="Button_Click"></Button>
+        <Button Content="Submit Order" Grid.Row="2" Grid.Column="1" HorizontalAlignment="Center" Click="Button_Click_1"></Button>
     </Grid>
 </Page>
